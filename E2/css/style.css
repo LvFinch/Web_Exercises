@@ -1,0 +1,107 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    color:#4D4D4D;
+}
+a
+ {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #151515;/*文字颜色*/
+    transition-delay: 0s;
+    transition-duration: 0.36s;/*文字显示延迟*/
+    transition-property: all;
+    transition-timing-function: line;
+ }
+nav a:hover
+{
+    font-weight: 400;
+}
+nav,nav:hover/*左边间距*/
+{
+    padding: 1em;
+}
+nav a/*文字藏的位置*/
+{
+    text-indent: -200px;
+}
+nav:hover a/*文字设定*/
+{
+    text-indent:0px;
+    color: #EEFFE5;
+}
+svg,a
+{
+    vertical-align: top;
+}
+h1
+{
+   font-family: 'Open Sans', sans-serif;
+   font-size:3em;
+   font-weight: 300;
+   color:#000;
+   line-height:1.8em;
+}
+h2
+{
+    font-weight: 300;
+}
+h2 a
+{
+    font-weight: 700;
+}
+body
+{
+    background: #f1f1f1;
+}
+nav
+{
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   display: block;
+   height: auto;
+   min-width: 40px;/*最小宽度*/
+   width: 40px;/*宽度*/
+   background-color: #ccc;/*展开前背景色*/
+   transition-delay: 0s;
+   transition-duration: 0.4s;/*收缩延迟*/
+   transition-property: all;
+   transition-timing-function: line;
+ }
+nav:hover/*展开设定*/
+{
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   height: auto;
+   width: 140px;/*展开后宽度*/
+   background-color: #9ED29E;/*展开后背景色*/
+}
+nav a
+{
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity:0;
+   margin-left: 1em;
+}
+nav:hover a
+{
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity:1;
+}
+li/*每个图标展开前的模板设定*/
+{
+    display: block;
+    padding:0.2em;
+    height:32px;
+}
+svg,a
+{
+    display: inline-block;
+}
