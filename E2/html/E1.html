@@ -1,7 +1,7 @@
 <!--
  * -> Autdor : Akko
  * -> Date : 2020-04-12 00:00:37
- * -> LastEditTime : 2020-04-12 00:54:45
+ * -> LastEditTime : 2020-04-12 13:53:03
  * -> LastEditors : your name
  * -> Description : E1
  * -> FilePatd : \Web_Exercises\E2\html\E1.html
@@ -12,12 +12,128 @@
         <title>
             Table Style 1
         </title>
+        <link rel="style3" href="css/styleonrpointthree.css">
     </head>
     <body>
-        <div>
+        <div><!--①-->
             <h1 style="text-align: center;">A HTML table with no lines inside</h1>
             <hr width="200"><br>
-            <table  align="center" border="0" cellspacing="0" cellpadding="5" style="border: solid thin rgb(0, 0, 0);">
+            <table  align="center" border="0" cellspacing="1" cellpadding="5" style="border: solid thin rgb(0, 0, 0);">
+                <tr>
+                    <td style="width: 15%;">Name</td>
+                    <td style="width: 10%;">Maths</td>
+                    <td style="width: 10%;">Science</td>
+                    <td style="width: 10%;">English</td>
+                    <td style="width: 10%;">Physics</td>
+                    <td style="width: 30%;">General Knowledge</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>85</td>
+                    <td>87</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>Richard</td>
+                    <td>91</td>
+                    <td>81</td>
+                    <td>78</td>
+                    <td>71</td>
+                    <td>74</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>81</td>
+                    <td>86</td>
+                    <td>88</td>
+                    <td>84</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>Tony</td>
+                    <td>84</td>
+                    <td>86</td>
+                    <td>87</td>
+                    <td>82</td>
+                    <td>81</td>
+                </tr>
+                <tr>
+                    <td>Scott</td>
+                    <td>71</td>
+                    <td>79</td>
+                    <td>82</td>
+                    <td>88</td>
+                    <td>89</td>
+                </tr>
+            </table>
+        </div>
+        <div><!--②-->
+            <h1 style="text-align: center;">A HTML table that can merge cells</h1>
+            <hr width="200"><br>
+            <table  align="center" border="1" cellpadding="1" style="border-collapse:collapse;border: solid thin rgb(0, 0, 0);">
+                <tr>
+                    <th colspan="6">STUDENTS MARK SHEET</th>
+                </tr>
+                <tr>
+                    <td style="width: 15%;">Name</td>
+                    <td style="width: 10%;">Maths</td>
+                    <td style="width: 10%;">Science</td>
+                    <td style="width: 10%;">English</td>
+                    <td style="width: 10%;">Physics</td>
+                    <td style="width: 30%;">General Knowledge</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>85</td>
+                    <td>87</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>Richard</td>
+                    <td>91</td>
+                    <td>81</td>
+                    <td>78</td>
+                    <td>71</td>
+                    <td>74</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>81</td>
+                    <td>86</td>
+                    <td>88</td>
+                    <td>84</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>Tony</td>
+                    <td>84</td>
+                    <td>86</td>
+                    <td>87</td>
+                    <td>82</td>
+                    <td>81</td>
+                </tr>
+                <tr>
+                    <td>Scott</td>
+                    <td>71</td>
+                    <td>79</td>
+                    <td>82</td>
+                    <td>88</td>
+                    <td>89</td>
+                </tr>
+            </table>
+        </div>
+        <div><!--③-->
+            <h1 style="text-align: center;">A HTML Table with staggered colors</h1>
+            <hr width="200">
+            <br>
+            <table  id="table1" class="global" align="center" border="1" cellpadding="10">
+                <tr>
+                    <td style="background-color: rgb(128,179,39);" class="title" colspan="6">STUDENTS MARK SHEET</td>
+                </tr>
                 <tr>
                     <td style="width: 15%;">Name</td>
                     <td style="width: 10%;">Maths</td>
