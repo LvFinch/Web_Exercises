@@ -1,7 +1,7 @@
 <!--
  * -> Autdor : Akko
  * -> Date : 2020-04-12 00:00:37
- * -> LastEditTime : 2020-04-12 13:53:03
+ * -> LastEditTime : 2020-04-12 14:00:45
  * -> LastEditors : your name
  * -> Description : E1
  * -> FilePatd : \Web_Exercises\E2\html\E1.html
@@ -12,7 +12,28 @@
         <title>
             Table Style 1
         </title>
-        <link rel="style3" href="css/styleonrpointthree.css">
+        <style type="text/css">/*E1.3css*/
+            table.global
+            {
+                border: solid thin rgb(0, 0, 0);
+                border-collapse: collapse;
+            }
+            .title
+            {
+                color: white;
+                text-align: center;
+                font-weight: 900;
+                font-size: 15px;
+            }
+            table.global td:nth-child(odd)
+            {
+                background-color: rgb(239,255,210);
+            }
+            table.global td:nth-child(even)
+            {
+                background-color: rgb(228,255,183);
+            }
+        </style>
     </head>
     <body>
         <div><!--①-->
