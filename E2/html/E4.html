@@ -1,9 +1,89 @@
 <!--
  * -> Author : Akko
  * -> Date : 2020-04-12 00:00:57
- * -> LastEditTime : 2020-04-12 00:05:51
+ * -> LastEditTime : 2020-04-13 16:55:56
  * -> LastEditors : your name
  * -> Description : E4
- * -> FilePath : \Web_Exercises\E2\html\E4.html
+ * -> FilePath : \E2\html\E4.html
  * -> Copyright  © 2020 Akko All rights reserved.
  -->
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/e4.css">
+        <link rel="stylesheet" href="../css/copyright.css">
+    </head>
+    <body>
+        <table align="center" cellspacing="12px"><!--三张表存放的表格-->
+            <tr><!--创建一行-->
+                <td><!--第一个单元格存放左表-->
+                    <table class="left" border="1"><!--左表-->
+                        <tr>
+                            <th rowspan="3" colspan="2" style="width: 50%">Title goes here</th>
+                            <th style="width: 25%" class="left_l">A</th>
+                            <th style="width: 25%" class="left_r">D</th>
+                        </tr>
+                        <tr>
+                            <th class="left_l">B</th>
+                            <th class="left_r">E</th>
+                        </tr>
+                        <tr>
+                            <th class="left_l">C</th>
+                            <th class="left_r">F</th>
+                        </tr>
+                    </table>
+                </td>
+                <td><!--第二个单元格存放中表-->
+                    <table class="middle" border="1"  cellspacing="20px">
+                        <tr>
+                            <th rowspan="3" colspan="2" style="width: 62%">Title goes here</th>
+                            <th style="width: 19%" class="middle_l">A</th>
+                            <th style="width: 19%" class="middle_r">D</th>
+                        </tr>
+                        <tr>
+                            <th class="middle_l">B</th>
+                            <th class="middle_r">E</th>
+                        </tr>
+                        <tr>
+                            <th class="middle_l">C</th>
+                            <th class="middle_r">F</th>
+                        </tr>
+                    </table>
+                </td>
+                <td><!--第三个单元格存放右表-->
+            <table border="1" class="right">
+                <tr>
+                    <th colspan="3" class="right_title">Title goes here</th>
+                    <th>A</th>
+                    <th class="right_r">B</th>
+                </tr>
+                <tr>
+                    <th rowspan="3" width="20%" class="right_l">C</th>
+                    <th width="20%">D</th>
+                    <th width="20%">E</th>
+                    <th width="20%">F</th>
+                    <th width="20%" class="right_r">G</th>
+                </tr>
+                <tr>
+                    <th>H</th>
+                    <th colspan="2">I</th>
+                    <th rowspan="2" class="right_r right_b">J</th>
+                </tr>
+                <tr>
+                    <th>K</th>
+                    <th>L</th>
+                    <th>M</th>
+                </tr>
+                <tr>
+                    <th class="right_r">N</th>
+                    <th colspan="4">O</th>
+                </tr>
+            </table>
+                </td>
+        </table>
+        <br>
+        <div class="copyright_head"><!--Copyright-->
+            <div class="copyright_word">Copyright  © 2020 Akko All rights reserved.</div>
+            <div class="copyright_border jmu-border-1px border-bottom"></div>
+        </div>
+    </body>
+</html>
