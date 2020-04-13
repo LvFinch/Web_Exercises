@@ -1,0 +1,65 @@
+table.left
+{
+    font-family: serif;
+    font-size: 12px;
+    height: 180px;
+    width: 280px;
+}
+table.middle
+{
+    font-family: serif;
+    font-size: 12px;
+    height: 140px;
+    width: 260px;
+}
+table.right
+{
+    font-family: serif;
+    font-size: 12px;
+    height: 140px;
+    width: 165px;
+}
+th.left_l
+{
+    text-align: left;
+    padding-left: 8%;
+}
+th.left_r
+{
+    text-align: right;
+    padding-right: 8%;
+}
+th.middle_l
+{
+    text-align: left;
+    padding-left: 1%;
+    width: 19%;
+}
+th.middle_r
+{
+    text-align: right;
+    padding-right: 1%;
+    width: 19%;
+}
+
+th.right_b
+{
+    vertical-align: bottom;
+    padding-bottom: 2.5%;
+}
+th.right_title
+{
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 3%
+}
+th.right_l
+{
+    text-align: left;
+    padding-right: 1%;
+}
+th.right_r
+{
+    text-align: right;
+    padding-right: 1%;
+}
