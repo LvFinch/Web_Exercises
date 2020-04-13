@@ -7,8 +7,6 @@
 | <img src="./svg/IE.svg" alt="IE" style="zoom:100%;" /> | <img src="./svg/Firefox.svg" alt="Firefox" style="zoom:95%;" /> | <img src="./svg/Chrome.svg" alt="Chrome" style="zoom:90%;" /> | ![Safari](./svg/Safari.svg) | ![Opera](./svg/Opera.svg) |
 |                          6.0                           |                             9.0                              |                             4.0                              |             5.0             |           11.1            |
 
-(如果你是在网页上看到的,svg图片加载可能会慢,请稍等)
-
 
 
 ## 文件介绍
