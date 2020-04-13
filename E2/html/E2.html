@@ -1,7 +1,7 @@
 <!--
  * -> Author : Akko
  * -> Date : 2020-04-12 00:00:46
- * -> LastEditTime : 2020-04-13 10:29:00
+ * -> LastEditTime : 2020-04-13 11:50:10
  * -> LastEditors : your name
  * -> Description : E2
  * -> FilePath : \E2\html\E2.html
@@ -13,11 +13,41 @@
         <link rel="stylesheet" href="/css/copyright.css">
     </head>
     <body>
-        <div>
+        <div><!--标题-->
+            <h1 style="text-align: center;"> A table with cross rows</h1>
+        </div>
+        <hr width="200">
+        <div><!--表格主体-->
             <table align="center" border="1" cellpadding="1" style="border-collapse:collapse;border: solid thin rgb(0, 0, 0);">
                 <tr>
-                    <th >Company</th>
-                    <th>Model</th>
+                    <th style="width: 150; text-align: left;">Company</th>
+                    <th style="width: 220; text-align: left;">Model</th>
+                </tr>
+                <tr>
+                    <td>Dodge</td>
+                    <td>Challanger</td>
+                </tr>
+                <tr>
+                    <td>Maruti</td>
+                    <td>Swift</td>
+                </tr>
+                <tr>
+                    <td>Jeep</td>
+                    <td>Wrangler</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Ford</td>
+                    <td>Fusion</td>
+                </tr>
+                <tr>
+                    <td>Fiesta</td>
+                </tr>
+                <tr>
+                    <td>Escape</td>
+                </tr>
+                <tr>
+                    <td>BMW</td>
+                    <td>BMW 5 Series</td>
                 </tr>
             </table>
         </div>
