@@ -35,3 +35,10 @@ a:active,a:focus
     margin:0;
     padding:0;
 }
+.FrameSet
+{
+    width: 100%;
+    min-width: 1300px;
+    height: 1470px;
+    min-height: 1470px;
+}
