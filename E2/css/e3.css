@@ -48,3 +48,7 @@ tr.data
     font-size: 12px;
     height: 28px
 }
+.bgColor
+{
+    background: rgb(255, 255, 255);
+}
