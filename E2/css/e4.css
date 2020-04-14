@@ -63,3 +63,7 @@ th.right_r
     text-align: right;
     padding-right: 1%;
 }
+.bgColor
+{
+    background: rgb(255, 255, 255);
+}
